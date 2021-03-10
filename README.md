@@ -1,8 +1,8 @@
-# Hands-On 4linux
+# LPIC-1 Linux Administrator
 
-Este repositório é o ambiente referente a semana Hands-On 4linux.
+Este repositório é referente ao ambiente utilizado para praticar comandos e cenários com o objetivo de capacitação para a certificação LPIC-1 Linux Administrator.
 
-![Infraestrutura Hands-On](infra-hands-on.png)
+![Infraestrutura LPIC-1](assets/infra-lpic-1.png)
 
 Ao executar os passos de configuração, sua máquina, através do **Vagrant**, criará as máquinas virtuais no **VirtualBox** de forma automática. O **Vagrant** nos auxiliará a criar e gerenciar as máquinas de uma maneira muito mais simples e rápida do que se precisássemos instalá-las manualmente.
 
@@ -17,7 +17,7 @@ Para clonar o repositório você precisará do [git](https://git-scm.com/), para
 Clone o repositório em algum diretório da sua máquina e inicie as vms:
 
 ```bash
-git git clone https://github.com/4linux/hands-on.git
+git git clone https://github.com/fsvalim/lpic-1.git
 cd hands-on
 vagrant up
 ```
