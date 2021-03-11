@@ -3,7 +3,7 @@
 vms = {
 
   'centos8' => {'memory' => '1024', 'cpus' => 1, 'ip' => '10', 'ip_int' => '10' , 'box' => 'centos/8', 'provision' => 'centos8.sh'},
-  'debian10' => {'memory' => '3072', 'cpus' => 2, 'ip' => '11' , 'box' => 'debian/buster64', 'provision' => 'debian10.sh'}
+  'debian10' => {'memory' => '1024', 'cpus' => 2, 'ip' => '11' , 'box' => 'debian/buster64', 'provision' => 'debian10.sh'}
 }
 
 Vagrant.configure('2') do |config|
